@@ -1,0 +1,49 @@
+.buttonstyle {
+  background-color: rgb(201, 74, 39);
+  font-size: 16px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 7px 13px;
+  box-shadow: 1px 1px 5px rgb(18, 17, 17, 0.3);
+}
+
+.buttonstyle:not(:last-child) {
+  /* margin-right: 10px; */
+}
+.buttonstyle:hover {
+  cursor: pointer;
+  background-color: rgb(172, 53, 20);
+  transition: all 0.3s ease;
+}
+.buttonstyle:active {
+  background-color: rgb(150, 40, 10);
+  transform: translate(-0.3px, -0.3px);
+}
+
+/*  primary button style  */
+
+.primarybuttonstyle {
+  background-color: rgb(201, 39, 187);
+  font-size: 16px;
+  border-radius: 25px;
+
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 10px rgb(18, 17, 17, 0.3);
+}
+
+.primarybuttonstyle:not(:last-child) {
+  /* margin-right: 10px; */
+}
+.primarybuttonstyle:hover {
+  cursor: pointer;
+  background-color: rgb(178, 27, 165);
+
+  transition: all 0.3s ease;
+}
+.primarybuttonstyle:active {
+  transform: translate(-0.3px, -0.3px);
+}
